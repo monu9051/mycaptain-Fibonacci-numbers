@@ -1,0 +1,11 @@
+n=int(input("enter how many numbers you want in this series:"))
+n1=0
+n2=1
+f=[n1,n2]
+for i in range(n):
+    n3=n1+n2
+    f.append(n3)
+    n1=n2
+    n2=n3
+print(f)
+    
